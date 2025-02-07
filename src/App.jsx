@@ -48,13 +48,7 @@ function App() {
   }
 
   function timer(){
-    if (timer.current==null){
-      timer.current=setInterval(() => {
-        if (min<0){
-          setMin((min)=>min-1)
-        }
-      }, 60000);
-    }
+    
   }
 
   timer()
