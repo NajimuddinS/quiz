@@ -47,11 +47,6 @@ function App() {
 
   }
 
-  function timer(){
-    
-  }
-
-  timer()
   
   return (
     <>
